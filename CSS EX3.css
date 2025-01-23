@@ -1,0 +1,130 @@
+<footer>
+  <div class="footer-top">
+    <h2 class="footer-title">FurniShop</h2>
+    <div class="social-icons">
+      <a href="#"><img src="icon-facebook.png" alt="Facebook"></a>
+      <a href="#"><img src="icon-twitter.png" alt="Twitter"></a>
+      <a href="#"><img src="icon-instagram.png" alt="Instagram"></a>
+      <a href="#"><img src="icon-linkedin.png" alt="LinkedIn"></a>
+      <a href="#"><img src="icon-youtube.png" alt="YouTube"></a>
+    </div>
+  </div>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h4>Our Products</h4>
+      <ul>
+        <li><a href="#">The Support Suite</a></li>
+        <li><a href="#">The Sales Suite</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Guide</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h4>Top Features</h4>
+      <ul>
+        <li><a href="#">Ticketing System</a></li>
+        <li><a href="#">Knowledge Base</a></li>
+        <li><a href="#">Community Forums</a></li>
+        <li><a href="#">Help Desk Software</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h4>Resources</h4>
+      <ul>
+        <li><a href="#">Product Support</a></li>
+        <li><a href="#">Request Demo</a></li>
+        <li><a href="#">Library</a></li>
+        <li><a href="#">Peoplepower Blog</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">Investors</a></li>
+        <li><a href="#">Events</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h4>Favourite Things</h4>
+      <ul>
+        <li><a href="#">For Enterprise</a></li>
+        <li><a href="#">For Startups</a></li>
+        <li><a href="#">For Benchmark</a></li>
+        <li><a href="#">For Small Business</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; Newfound 2023 - All Rights Reserved</p>
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.social-icons a {
+  margin-left: 10px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  filter: invert(1); /* Makes icons white */
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-section h4 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
